@@ -12,11 +12,17 @@ Track of what we built, decisions made, and what you've learned along the way.
 - [x] Create GitHub repository (`YT-Roaster`)
 - [x] Initialize Git and push `PROJECT_NOTES.md`
 - [x] Import and review `PRD.md`
-- [ ] Choose Tech Stack (Frontend + Backend + Free AI Model)
-- [ ] Scaffold Project Structure
+- [x] Choose Tech Stack & Define Directory Structure (Next.js + Tailwind + NextAuth + Gemini AI)
+- [ ] Scaffold Project Structure & Playful UI
 - [ ] Implement Google OAuth & YouTube API integration
 - [ ] Build Roast Generation & Brainrot Score logic
 - [ ] Polish UI / Deployment
+
+## Tech Stack & Architecture Choice
+- **Framework:** Next.js (App Router) for simple full-stack development.
+- **Styling:** Tailwind CSS (vibrant, dark-mode roast theme, playful gradients).
+- **Auth:** NextAuth with Google Provider.
+- **AI:** Free-tier Gemini / OpenAI API for generating brutal roasts.
 
 ---
 ## Log
