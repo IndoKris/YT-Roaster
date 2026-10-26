@@ -1,9 +1,9 @@
-import { NextResponse } from "next/server";
+import { NextResponse, NextRequest } from "next/server";
 import { getToken } from "next-auth/jwt";
 
-export async function GET(req: Request) {
+export async function GET(req: NextRequest) {
   try {
-    const token = await getToken({ req, secret: process.env.NEXTAUTH_SECRET });
+    const token = await getToken({ req: req as any, secret: process.env.NEXTAUTH_SECRET });
 
     if (!token || !(token as any).accessToken) {
       return NextResponse.json({ error: "Unauthorized or missing access token" }, { status: 401 });
