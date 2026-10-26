@@ -12,7 +12,9 @@ A fun, beginner-friendly web application that connects via Google Auth / YouTube
 ## Progress
 - [x] Create GitHub Repo & PRD
 - [x] Scaffold Next.js project (`yt-roast`)
-- [ ] Build Playful Landing Page (`app/page.tsx`)
-- [ ] Configure NextAuth & YouTube API integration
-- [ ] Implement AI Roast generation & Brainrot Score card
-- [ ] Test & Deploy
+- [x] Build Playful Landing Page (`app/page.tsx`)
+- [x] Configure NextAuth & YouTube API integration (`app/api/auth/[...nextauth]/route.ts`)
+- [x] Implement AI Roast generation & Brainrot Score card (`app/api/roast/route.ts`, `app/api/youtube/route.ts`)
+- [x] Add Health Diagnostics API & Dashboard Route (`app/api/health/route.ts`, `app/dashboard/page.tsx`)
+- [x] Polish README and Documentation (`README.md`)
+- [ ] Final Deployment (Vercel)
